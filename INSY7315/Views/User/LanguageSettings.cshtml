@@ -1,0 +1,18 @@
+﻿@model AfterGrad.Models.SettingsVM
+@{
+    ViewData["Title"] = "Settings";
+    ViewData["ShowBackButton"] = "true";
+}
+
+<div class="d-flex justify-content-center pt-3">
+    <div class="card ag-card-bg p-5 shadow-sm" style="max-width: 400px;">
+        <h3 class="mb-4">Languages</h3>
+        <p>Select a language of your choice</p>
+        <form asp-action="SaveLanguage" method="post">
+            <div class="form-group mb-4">
+                <select asp-for="SelectedLanguage" asp-items="@(new SelectList(Model.AvailableLanguages))" class="form-select"></select>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Save</button>
+        </form>
+    </div>
+</div>

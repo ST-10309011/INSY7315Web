@@ -1,0 +1,80 @@
+﻿@model AfterGrad.Models.RequestVM
+
+@{
+    ViewData["Title"] = $"Request Details - {Model.RequestID}";
+    ViewData["ShowBackButton"] = "true"; // Added for mobile navigation
+}
+
+<div class="container-fluid pt-3">
+    <div class="row">
+        <div class="col-lg-6 col-12 mb-4">
+            <div class="card ag-card-bg p-4 shadow-sm">
+                <h2>Details</h2>
+                <div class="mb-3">
+                    <p><strong>Request ID:</strong> #@Model.RequestID</p>
+                    <p><strong>Request Type:</strong> @Model.RequestType</p>
+                    <p><strong>Student ID:</strong> @Model.StudentID</p>
+                    <p><strong>Status:</strong> <span class="badge bg-warning text-dark">@Model.Status</span></p>
+                </div>
+
+                <div class="border p-3 mb-4 rounded bg-white">
+                    <div class="row">
+                        <div class="col-4 small text-muted">Doc ID:</div>
+                        <div class="col-8 small">00001</div>
+                        <div class="col-4 small text-muted">Documents:</div>
+                        <div class="col-8 small"><a href="#">@Model.DocName</a></div>
+                        <div class="col-4 small text-muted">Date Submitted:</div>
+                        <div class="col-8 small">@Model.DateSubmitted.ToString("dd/MM/yyyy h:mm")</div>
+                        <div class="col-4 small text-muted">Feedback:</div>
+                        <div class="col-8 small">@Model.Feedback</div>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-between">
+                    <form asp-action="DeclineRequest" method="post" onsubmit="return confirm('Are you sure you want to decline this request?');">
+                        <input type="hidden" name="id" value="@Model.RequestID" />
+                        <button type="submit" class="btn btn-danger">Decline Request</button>
+                    </form>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#consultantTableCollapse">
+                        Assign Consultant
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-12 collapse show d-lg-block" id="consultantTableCollapse">
+            <div class="card ag-card-bg p-4 shadow-sm">
+                <h2 class="mb-3">Available Consultants</h2>
+                <form asp-action="AssignConsultant" method="post">
+                    <input type="hidden" name="requestId" value="@Model.RequestID" />
+                    <table class="table table-striped bg-white rounded">
+                        <thead>
+                            <tr>
+                                <th>Con ID</th>
+                                <th>Name</th>
+                                <th>Services</th>
+                                <th># Assigned</th>
+                                <th>Select</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var consultant in Model.AvailableConsultants)
+                            {
+                                <tr>
+                                    <td>@consultant.ConID</td>
+                                    <td>@consultant.Name</td>
+                                    <td>@consultant.Services</td>
+                                    <td>@consultant.NoOfAssignedServices</td>
+                                    <td>
+                                        <input type="radio" name="consultantId" value="@consultant.ConID" required />
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                    <button type="submit" class="btn btn-success float-end">Assign Selected Consultant</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

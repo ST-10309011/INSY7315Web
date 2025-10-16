@@ -1,0 +1,60 @@
+﻿@model AfterGrad.Models.ResourceUploadVM
+@{
+    ViewData["Title"] = "Resources";
+}
+
+<div class="container-fluid pt-3">
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-success">@TempData["Message"]</div>
+    }
+
+    <div class="row">
+        <div class="col-lg-6 col-12 mb-4 order-lg-1 order-2">
+            // FIX: Ensure List<ResourceVM>
+                is fully specified.
+                @foreach (var resource in (List<ResourceVM>)ViewBag.ExistingResources)
+                {
+                    <div class="card ag-card-bg p-3 mb-3 shadow-sm">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <strong>@resource.Title</strong><br />
+                                <small>Type: @resource.Type</small><br />
+                                <small>Description: @resource.Description</small>
+                            </div>
+                            <i class="fas fa-download"></i>
+                        </div>
+                    </div>
+                }
+        </div>
+
+        <div class="col-lg-6 col-12 mb-4 order-lg-2 order-1">
+            <div class="card ag-card-bg p-4 shadow-sm">
+                <h3 class="mb-3">Upload Resource</h3>
+                <form asp-action="Upload" method="post" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="form-group mb-3">
+                        <select asp-for="ResourceType" class="form-select" placeholder="Resource Type" required>
+                            <option value="">Resource Type</option>
+                            <option value="PDF">PDF</option>
+                            <option value="Video">Video</option>
+                            <option value="Excel">Excel</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <input asp-for="ResourceFile" type="file" class="form-control" placeholder="Upload Resource" required />
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <input asp-for="Description" class="form-control" placeholder="Description" />
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Upload</button>
+                    <button type="button" class="btn btn-danger">Cancel</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

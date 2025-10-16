@@ -1,0 +1,18 @@
+﻿@model AfterGrad.Models.SettingsVM
+@{
+    ViewData["Title"] = "Settings";
+    ViewData["ShowBackButton"] = "true";
+}
+
+<div class="d-flex justify-content-center pt-3">
+    <div class="card ag-card-bg p-5 shadow-sm" style="max-width: 400px;">
+        <h3 class="mb-4">Security</h3>
+        <form asp-action="SaveSecurity" method="post">
+            <div class="form-check mb-4">
+                <input asp-for="EnableFingerprintLogin" class="form-check-input" type="radio" id="enableFingerprint" value="true" checked />
+                <label class="form-check-label" for="enableFingerprint">Enable Fingerprint Login</label>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Save</button>
+        </form>
+    </div>
+</div>

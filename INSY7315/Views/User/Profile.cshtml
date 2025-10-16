@@ -1,0 +1,42 @@
+﻿@model AfterGrad.Models.ProfileVM
+@{
+    ViewData["Title"] = "Profile";
+}
+
+<div class="d-flex justify-content-center pt-3">
+    <div class="profile-container w-100" style="max-width: 400px;">
+
+        <div id="displayProfile" class="card ag-card-bg p-5 text-center shadow-sm">
+            <div class="mb-4">
+                <img src="~/img/user_avatar.png" alt="User Avatar" style="width: 80px; height: 80px; border-radius: 50%;" />
+            </div>
+
+            <h3 class="mb-3">@Model.Username</h3>
+            <p class="text-start">Email: <strong class="float-end">@Model.Email</strong></p>
+            <p class="text-start">Password: <strong class="float-end">R********1</strong></p>
+
+            <button type="button" class="btn btn-primary mt-3" onclick="document.getElementById('editProfile').style.display='block'; document.getElementById('displayProfile').style.display='none';">
+                Edit Profile
+            </button>
+        </div>
+
+        <div id="editProfile" class="card ag-card-bg p-5 text-center shadow-sm" style="display:none;">
+            <div class="mb-4">
+                <img src="~/img/user_avatar.png" alt="User Avatar" style="width: 80px; height: 80px; border-radius: 50%;" />
+                <i class="fas fa-plus-circle text-primary" style="position: relative; right: -25px; top: -10px;"></i>
+            </div>
+
+            <form asp-action="EditProfile" method="post">
+                <div class="form-group mb-3">
+                    <input asp-for="NewUsername" class="form-control" placeholder="Username" value="@Model.Username" />
+                </div>
+                <div class="form-group mb-3">
+                    <input asp-for="NewEmail" class="form-control" placeholder="Email" value="@Model.Email" />
+                    <a asp-action="ChangePassword" class="small float-end mt-2">Change Password</a>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100 mt-4">Edit Profile</button>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+﻿@model AfterGrad.Models.SettingsVM
+@{
+    ViewData["Title"] = "Settings";
+    ViewData["ShowBackButton"] = "true";
+}
+
+<div class="container-fluid pt-3">
+    <div class="card ag-card-bg p-4 mb-4 shadow-sm">
+        <h3 class="mb-4">FAQs</h3>
+        @foreach (var faq in Model.FAQs)
+        {
+            <div class="p-2 border-bottom">@faq</div>
+        }
+    </div>
+
+    <div class="card ag-card-bg p-4 shadow-sm">
+        <h3 class="mb-4">What would you like to know?</h3>
+        <form asp-action="SubmitSupportQuestion" method="post">
+            <div class="form-group mb-4">
+                <textarea asp-for="SupportQuestion" class="form-control" rows="4" placeholder="Question"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary float-end">Ask</button>
+        </form>
+    </div>
+</div>

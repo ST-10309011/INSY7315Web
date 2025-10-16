@@ -1,0 +1,59 @@
+﻿@model AfterGrad.Models.DashboardSummaryVM
+
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="container-fluid pt-3">
+    <div class="row mb-4">
+        <div class="col-lg-6 col-12 mb-3">
+            <div class="summary-card pending shadow-sm">
+                <h5 class="card-title">Pending Requests</h5>
+                <p class="card-text h1">@Model.PendingRequestsCount</p>
+            </div>
+        </div>
+        <div class="col-lg-6 col-12 mb-3">
+            <div class="summary-card available shadow-sm">
+                <h5 class="card-title">Available Consultants</h5>
+                <p class="card-text h1">@Model.AvailableConsultantsCount</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6 col-12 mb-4">
+            <div class="card ag-card-bg p-3 shadow-sm">
+                <h2 class="mb-3">Recent Uploads</h2>
+                @foreach (var upload in Model.RecentUploads)
+                {
+                    <div class="list-card-item">
+                        <div class="d-flex justify-content-between">
+                            <strong>@upload.Title</strong>
+                            <i class="fas fa-download"></i>
+                        </div>
+                        <small>Type: @upload.Type</small><br />
+                        <small>Description: @upload.Description</small>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-12 mb-4">
+            <div class="card ag-card-bg p-3 shadow-sm">
+                <h2 class="mb-3">Recent Requests</h2>
+                @foreach (var request in Model.RecentRequests)
+                {
+                    <div class="list-card-item border-left-warning">
+                        <div class="d-flex justify-content-between">
+                            <strong>#@request.RequestID</strong>
+                            <span class="badge bg-warning text-dark">@request.Status</span>
+                        </div>
+                        <small>Type: @request.RequestType</small><br />
+                        <small>Student ID: @request.StudentID</small>
+                        <a asp-controller="Requests" asp-action="Details" asp-route-id="@request.RequestID" class="btn btn-sm btn-link float-end">View</a>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
