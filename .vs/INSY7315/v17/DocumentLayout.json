@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Micha\\source\\repos\\INSY7315\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|c:\\users\\micha\\source\\repos\\insy7315\\insy7315\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|solutionrelative:insy7315\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|c:\\users\\micha\\source\\repos\\insy7315\\insy7315\\views\\resources\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|solutionrelative:insy7315\\views\\resources\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -15,20 +11,44 @@
       "RelativeMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|solutionrelative:insy7315\\views\\messages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|c:\\users\\micha\\source\\repos\\insy7315\\insy7315\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|solutionrelative:insy7315\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|c:\\users\\micha\\source\\repos\\insy7315\\insy7315\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|solutionrelative:insy7315\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|c:\\users\\micha\\source\\repos\\insy7315\\insy7315\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|solutionrelative:insy7315\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|c:\\users\\micha\\source\\repos\\insy7315\\insy7315\\controllers\\requestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|solutionrelative:insy7315\\controllers\\requestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|c:\\users\\micha\\source\\repos\\insy7315\\insy7315\\controllers\\resourcescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|solutionrelative:insy7315\\controllers\\resourcescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|c:\\users\\micha\\source\\repos\\insy7315\\insy7315\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|solutionrelative:insy7315\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|c:\\users\\micha\\source\\repos\\insy7315\\insy7315\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|solutionrelative:insy7315\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|c:\\users\\micha\\source\\repos\\insy7315\\insy7315\\controllers\\requestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|solutionrelative:insy7315\\controllers\\requestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|c:\\users\\micha\\source\\repos\\insy7315\\insy7315\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|solutionrelative:insy7315\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|c:\\users\\micha\\source\\repos\\insy7315\\insy7315\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|solutionrelative:insy7315\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|c:\\users\\micha\\source\\repos\\insy7315\\insy7315\\views\\account\\landing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|solutionrelative:insy7315\\views\\account\\landing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|c:\\users\\micha\\source\\repos\\insy7315\\insy7315\\wwwroot\\images\\aftergradlogo.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|solutionrelative:insy7315\\wwwroot\\images\\aftergradlogo.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|c:\\users\\micha\\source\\repos\\insy7315\\insy7315\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|solutionrelative:insy7315\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|c:\\users\\micha\\source\\repos\\insy7315\\insy7315\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -73,10 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|c:\\users\\micha\\source\\repos\\insy7315\\insy7315\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|solutionrelative:insy7315\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|c:\\users\\micha\\source\\repos\\insy7315\\insy7315\\views\\account\\landing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|solutionrelative:insy7315\\views\\account\\landing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|c:\\users\\micha\\source\\repos\\insy7315\\insy7315\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -135,16 +151,8 @@
       "RelativeMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|solutionrelative:insy7315\\models\\requestvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|c:\\users\\micha\\source\\repos\\insy7315\\insy7315\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|solutionrelative:insy7315\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|c:\\users\\micha\\source\\repos\\insy7315\\insy7315\\models\\dashboardsummaryvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|solutionrelative:insy7315\\models\\dashboardsummaryvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|c:\\users\\micha\\source\\repos\\insy7315\\insy7315\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|solutionrelative:insy7315\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -154,7 +162,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -162,7 +170,124 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "additional-methods.js",
+              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "RelativeDocumentMoniker": "INSY7315\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "ToolTip": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "RelativeToolTip": "INSY7315\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "ViewState": "AgIAAJIEAAAAAAAAAAAwwJ0EAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-19T14:34:24.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ResourcesController.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Controllers\\ResourcesController.cs",
+              "RelativeDocumentMoniker": "INSY7315\\Controllers\\ResourcesController.cs",
+              "ToolTip": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Controllers\\ResourcesController.cs",
+              "RelativeToolTip": "INSY7315\\Controllers\\ResourcesController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswCYAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T19:28:19.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Messages\\Index.cshtml",
+              "RelativeDocumentMoniker": "INSY7315\\Views\\Messages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Messages\\Index.cshtml",
+              "RelativeToolTip": "INSY7315\\Views\\Messages\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAuwD0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-16T15:01:11.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Resources\\Index.cshtml",
+              "RelativeDocumentMoniker": "INSY7315\\Views\\Resources\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Resources\\Index.cshtml",
+              "RelativeToolTip": "INSY7315\\Views\\Resources\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-16T15:00:32.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "INSY7315\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "INSY7315\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAmwIkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-16T13:43:00.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MessagesController.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Controllers\\MessagesController.cs",
+              "RelativeDocumentMoniker": "INSY7315\\Controllers\\MessagesController.cs",
+              "ToolTip": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Controllers\\MessagesController.cs",
+              "RelativeToolTip": "INSY7315\\Controllers\\MessagesController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAswCAAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T19:28:36.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "INSY7315\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "INSY7315\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADQAAAAAAAAAAAAwwD4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-16T13:42:32.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "INSY7315\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "INSY7315\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-16T15:07:44.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RequestsController.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Controllers\\RequestsController.cs",
+              "RelativeDocumentMoniker": "INSY7315\\Controllers\\RequestsController.cs",
+              "ToolTip": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Controllers\\RequestsController.cs",
+              "RelativeToolTip": "INSY7315\\Controllers\\RequestsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T19:28:01.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Program.cs",
               "RelativeDocumentMoniker": "INSY7315\\Program.cs",
@@ -175,19 +300,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "INSY7315\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "INSY7315\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "Landing.cshtml",
+              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Account\\Landing.cshtml",
+              "RelativeDocumentMoniker": "INSY7315\\Views\\Account\\Landing.cshtml",
+              "ToolTip": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Account\\Landing.cshtml",
+              "RelativeToolTip": "INSY7315\\Views\\Account\\Landing.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-16T15:07:44.48Z"
+              "WhenOpened": "2025-10-16T13:36:34.432Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
+              "Title": "AfterGradLogo.png -  [English (United Kingdom)] - PNG [309x373, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\wwwroot\\images\\AfterGradLogo.png",
+              "RelativeDocumentMoniker": "INSY7315\\wwwroot\\images\\AfterGradLogo.png",
+              "ToolTip": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\wwwroot\\images\\AfterGradLogo.png -  [English (United Kingdom)] - PNG [309x373, 32 bit, PNG]",
+              "RelativeToolTip": "INSY7315\\wwwroot\\images\\AfterGradLogo.png -  [English (United Kingdom)] - PNG [309x373, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-10-19T14:28:14.259Z",
+              "EditorCaption": " -  [English (United Kingdom)] - PNG [309x373, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Chat\\Index.cshtml",
               "RelativeDocumentMoniker": "INSY7315\\Views\\Chat\\Index.cshtml",
@@ -199,68 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RequestsController.cs",
-              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Controllers\\RequestsController.cs",
-              "RelativeDocumentMoniker": "INSY7315\\Controllers\\RequestsController.cs",
-              "ToolTip": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Controllers\\RequestsController.cs",
-              "RelativeToolTip": "INSY7315\\Controllers\\RequestsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T19:28:01.571Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MessagesController.cs",
-              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Controllers\\MessagesController.cs",
-              "RelativeDocumentMoniker": "INSY7315\\Controllers\\MessagesController.cs",
-              "ToolTip": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Controllers\\MessagesController.cs",
-              "RelativeToolTip": "INSY7315\\Controllers\\MessagesController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAUwCgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T19:28:36.078Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ResourcesController.cs",
-              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Controllers\\ResourcesController.cs",
-              "RelativeDocumentMoniker": "INSY7315\\Controllers\\ResourcesController.cs",
-              "ToolTip": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Controllers\\ResourcesController.cs",
-              "RelativeToolTip": "INSY7315\\Controllers\\ResourcesController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAUwCkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T19:28:19.341Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Messages\\Index.cshtml",
-              "RelativeDocumentMoniker": "INSY7315\\Views\\Messages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Messages\\Index.cshtml",
-              "RelativeToolTip": "INSY7315\\Views\\Messages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-16T15:01:11.897Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Resources\\Index.cshtml",
-              "RelativeDocumentMoniker": "INSY7315\\Views\\Resources\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Resources\\Index.cshtml",
-              "RelativeToolTip": "INSY7315\\Views\\Resources\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-16T15:00:32.739Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "HelpAndSupport.cshtml",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\User\\HelpAndSupport.cshtml",
               "RelativeDocumentMoniker": "INSY7315\\Views\\User\\HelpAndSupport.cshtml",
@@ -272,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "SecuritySettings.cshtml",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\User\\SecuritySettings.cshtml",
               "RelativeDocumentMoniker": "INSY7315\\Views\\User\\SecuritySettings.cshtml",
@@ -284,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "LanguageSettings.cshtml",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\User\\LanguageSettings.cshtml",
               "RelativeDocumentMoniker": "INSY7315\\Views\\User\\LanguageSettings.cshtml",
@@ -296,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "SettingsMenu.cshtml",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\User\\SettingsMenu.cshtml",
               "RelativeDocumentMoniker": "INSY7315\\Views\\User\\SettingsMenu.cshtml",
@@ -308,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "Profile.cshtml",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\User\\Profile.cshtml",
               "RelativeDocumentMoniker": "INSY7315\\Views\\User\\Profile.cshtml",
@@ -320,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Dashboard\\Index.cshtml",
               "RelativeDocumentMoniker": "INSY7315\\Views\\Dashboard\\Index.cshtml",
@@ -332,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Requests\\Index.cshtml",
               "RelativeDocumentMoniker": "INSY7315\\Views\\Requests\\Index.cshtml",
@@ -344,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Requests\\Details.cshtml",
               "RelativeDocumentMoniker": "INSY7315\\Views\\Requests\\Details.cshtml",
@@ -356,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "SignUp.cshtml",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Account\\SignUp.cshtml",
               "RelativeDocumentMoniker": "INSY7315\\Views\\Account\\SignUp.cshtml",
@@ -368,7 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "INSY7315\\Views\\Account\\Login.cshtml",
@@ -380,19 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Landing.cshtml",
-              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Account\\Landing.cshtml",
-              "RelativeDocumentMoniker": "INSY7315\\Views\\Account\\Landing.cshtml",
-              "ToolTip": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Account\\Landing.cshtml",
-              "RelativeToolTip": "INSY7315\\Views\\Account\\Landing.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-16T13:36:34.432Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "ChatController.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Controllers\\ChatController.cs",
               "RelativeDocumentMoniker": "INSY7315\\Controllers\\ChatController.cs",
@@ -404,7 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "INSY7315\\Controllers\\UserController.cs",
@@ -416,7 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "INSY7315\\Controllers\\DashboardController.cs",
@@ -428,7 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "INSY7315\\Controllers\\AccountController.cs",
@@ -440,7 +505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "SettingsVM.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Models\\SettingsVM.cs",
               "RelativeDocumentMoniker": "INSY7315\\Models\\SettingsVM.cs",
@@ -452,7 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "ChangePasswordVM.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Models\\ChangePasswordVM.cs",
               "RelativeDocumentMoniker": "INSY7315\\Models\\ChangePasswordVM.cs",
@@ -464,7 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "ProfileVM.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Models\\ProfileVM.cs",
               "RelativeDocumentMoniker": "INSY7315\\Models\\ProfileVM.cs",
@@ -476,7 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "SignUpVM.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Models\\SignUpVM.cs",
               "RelativeDocumentMoniker": "INSY7315\\Models\\SignUpVM.cs",
@@ -488,7 +553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "LoginVM.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Models\\LoginVM.cs",
               "RelativeDocumentMoniker": "INSY7315\\Models\\LoginVM.cs",
@@ -500,7 +565,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "BroadcastMessageVM.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Models\\BroadcastMessageVM.cs",
               "RelativeDocumentMoniker": "INSY7315\\Models\\BroadcastMessageVM.cs",
@@ -512,7 +577,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "ResourceUploadVM.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Models\\ResourceUploadVM.cs",
               "RelativeDocumentMoniker": "INSY7315\\Models\\ResourceUploadVM.cs",
@@ -524,7 +589,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "ConsultantVM.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Models\\ConsultantVM.cs",
               "RelativeDocumentMoniker": "INSY7315\\Models\\ConsultantVM.cs",
@@ -536,7 +601,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "ResourceVM.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Models\\ResourceVM.cs",
               "RelativeDocumentMoniker": "INSY7315\\Models\\ResourceVM.cs",
@@ -548,7 +613,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "RequestVM.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Models\\RequestVM.cs",
               "RelativeDocumentMoniker": "INSY7315\\Models\\RequestVM.cs",
@@ -560,31 +625,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "INSY7315\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "INSY7315\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-10-16T13:43:00.061Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "INSY7315\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "INSY7315\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-16T13:42:32.315Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "DashboardSummaryVM.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Models\\DashboardSummaryVM.cs",
               "RelativeDocumentMoniker": "INSY7315\\Models\\DashboardSummaryVM.cs",

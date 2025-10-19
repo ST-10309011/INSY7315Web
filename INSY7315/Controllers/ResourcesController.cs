@@ -1,5 +1,5 @@
 ﻿using AfterGrad.Models;
-using Microsoft.AspNetCore.Mvc; // <-- FIX: Added missing using statement
+using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic; // You might need this if List<T> isn't recognized globally
 
 namespace AfterGrad.Controllers

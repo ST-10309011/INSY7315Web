@@ -1,132 +1,143 @@
 /* Custom Colors based on wireframes (Light Blue and Dark Blue) */
 :root {
-    --ag-light-blue: #C0D8F1;
-    --ag-dark-blue: #3A6690; /* For buttons and main header */
-    --ag-orange: #FF7F50; /* For highlights/secondary elements */
-    --ag-header-bg: #6BA3E3; /* Header/Top Bar Background */
-    --ag-card-bg: #EAF3FB; /* Light background for card content */
-    --ag-content-bg: #F5F7FA; /* General background */
+        --ag-light-blue: #A8D1F8; /* <-- UPDATED: New light blue color #A8D1F8 */
+        --ag-dark-blue: #3A6690; /* For buttons and main header */
+        --ag-orange: #FF7F50; /* For highlights/secondary elements */
+        --ag-header-bg: #6BA3E3; /* Header/Top Bar Background */
+        --ag-card-bg: #EAF3FB; /* Light background for card content */
+        --ag-content-bg: #A8D1F8; /* <-- UPDATED: General background set to the new light blue */
 }
 
 body {
-    background-color: var(--ag-content-bg);
-    padding-bottom: 70px; /* Space for mobile nav bar */
+        background-color: var(--ag-content-bg);
+        padding-bottom: 70px; /* Space for mobile nav bar */
 }
 
 /* -------------------- GENERAL STYLING -------------------- */
 
 .ag-header-bg {
-    background-color: var(--ag-header-bg) !important;
+        background-color: var(--ag-header-bg) !important;
 }
 
 .ag-card-bg {
-    background-color: var(--ag-card-bg) !important;
+        background-color: var(--ag-card-bg) !important;
 }
 
 /* Primary Button Styling */
 .btn-primary {
-    background-color: var(--ag-dark-blue);
-    border-color: var(--ag-dark-blue);
-    color: white;
+        background-color: var(--ag-dark-blue);
+        border-color: var(--ag-dark-blue);
+        color: white;
 }
 
 /* Secondary/Highlight Button Styling */
 .btn-orange {
-    background-color: var(--ag-orange);
-    border-color: var(--ag-orange);
-    color: white;
+        background-color: var(--ag-orange);
+        border-color: var(--ag-orange);
+        color: white;
 }
 
 /* Card Styling to match the rounded, padded look */
 .card {
-    border-radius: 12px;
-    border: none;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+        border: none;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Form Control Styling to match the white, rounded inputs */
 .form-control, .form-select {
-    border-radius: 8px;
-    border: 1px solid #ddd;
-    padding: 10px;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+        padding: 10px;
 }
 
 /* -------------------- MOBILE NAVIGATION -------------------- */
 
 .mobile-nav-bar {
-    background-color: var(--ag-header-bg) !important;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
+        background-color: var(--ag-header-bg) !important;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+       
     /* Ensure it's above content */
-    z-index: 1030;
+        z-index: 1030;
 }
 
 .nav-icon {
-    color: white;
-    font-size: 1.5rem;
-    padding: 8px;
-    border-radius: 8px;
-    transition: background-color 0.2s;
+        color: white;
+        font-size: 1.5rem;
+        padding: 8px;
+        border-radius: 8px;
+        transition: background-color 0.2s;
 }
 
-    .nav-icon.active {
-        background-color: var(--ag-dark-blue); /* Highlight for active page */
-    }
+    .nav-icon.active {
+            background-color: var(--ag-dark-blue); /* Highlight for active page */
+       
+}
 
 /* -------------------- DASHBOARD STYLING -------------------- */
 
 .summary-card {
-    border-radius: 12px;
-    text-align: center;
-    padding: 20px;
-    color: white;
+        border-radius: 12px;
+        text-align: center;
+        padding: 20px;
+        color: white;
 }
 
-    /* Pending Requests Card Color */
-    .summary-card.pending {
-        background-color: #798E9B; /* Grey/Blue shade */
-    }
+   
+/* Pending Requests Card Color */
+    .summary-card.pending {
+            background-color: #798E9B; /* Grey/Blue shade */
+       
+}
 
-    /* Available Consultants Card Color */
-    .summary-card.available {
-        background-color: #5AA179; /* Green shade */
-    }
+   
+/* Available Consultants Card Color */
+    .summary-card.available {
+            background-color: #5AA179; /* Green shade */
+       
+}
 
 /* Card Lists for Recent Requests/Uploads */
 .list-card-item {
-    background-color: white;
-    padding: 15px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    border-left: 5px solid var(--ag-dark-blue);
+        background-color: white;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        border-left: 5px solid var(--ag-dark-blue);
 }
 
 /* -------------------- LOGIN/SIGNUP STYLING -------------------- */
 
 /* Styles specific to the Login/Signup card background */
 .login-form-card, .signup-container {
-    background-color: var(--ag-light-blue);
-    border-radius: 20px;
-    padding: 30px;
-    margin: 20px auto;
+        background-color: var(--ag-light-blue);
+        border-radius: 20px;
+        padding: 30px;
+        margin: 20px auto;
 }
 
 /* PC View: Login screen on the right */
 @media (min-width: 992px) {
-    .login-container {
-        display: flex;
-        align-items: center;
+        .login-container {
+                display: flex;
+                align-items: center;
+               
         /* Position the login form to the right half of the screen */
-        justify-content: flex-end;
+                justify-content: flex-end;
+           
     }
 
-    .login-form-card {
-        max-width: 400px; /* Constrain size for desktop */
-        margin-right: 5%;
-        margin-left: 0;
+        .login-form-card {
+                max-width: 400px; /* Constrain size for desktop */
+                margin-right: 5%;
+                margin-left: 0;
+           
     }
 
+       
     /* Ensure content is not hidden by the fixed header */
-    .main-content-area {
-        padding-top: 20px;
+        .main-content-area {
+                padding-top: 20px;
+           
     }
 }

@@ -15,6 +15,7 @@ C:\Users\Micha\source\repos\INSY7315\INSY7315\obj\Debug\net8.0\INSY7315.csproj.C
 C:\Users\Micha\source\repos\INSY7315\INSY7315\obj\Debug\net8.0\INSY7315.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Micha\source\repos\INSY7315\INSY7315\obj\Debug\net8.0\INSY7315.RazorAssemblyInfo.cache
 C:\Users\Micha\source\repos\INSY7315\INSY7315\obj\Debug\net8.0\INSY7315.RazorAssemblyInfo.cs
+C:\Users\Micha\source\repos\INSY7315\INSY7315\obj\Debug\net8.0\INSY7315.sourcelink.json
 C:\Users\Micha\source\repos\INSY7315\INSY7315\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\Micha\source\repos\INSY7315\INSY7315\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\Micha\source\repos\INSY7315\INSY7315\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
@@ -31,4 +32,3 @@ C:\Users\Micha\source\repos\INSY7315\INSY7315\obj\Debug\net8.0\refint\INSY7315.d
 C:\Users\Micha\source\repos\INSY7315\INSY7315\obj\Debug\net8.0\INSY7315.pdb
 C:\Users\Micha\source\repos\INSY7315\INSY7315\obj\Debug\net8.0\INSY7315.genruntimeconfig.cache
 C:\Users\Micha\source\repos\INSY7315\INSY7315\obj\Debug\net8.0\ref\INSY7315.dll
-C:\Users\Micha\source\repos\INSY7315\INSY7315\obj\Debug\net8.0\INSY7315.sourcelink.json
