@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Micha\\source\\repos\\INSY7315\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|c:\\users\\micha\\source\\repos\\insy7315\\insy7315\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|solutionrelative:insy7315\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|c:\\users\\micha\\source\\repos\\insy7315\\insy7315\\views\\resources\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{38544080-BAEA-48E9-82C6-404A34D7A4D3}|INSY7315\\INSY7315.csproj|solutionrelative:insy7315\\views\\resources\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -150,7 +154,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -158,7 +162,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Program.cs",
+              "RelativeDocumentMoniker": "INSY7315\\Program.cs",
+              "ToolTip": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Program.cs",
+              "RelativeToolTip": "INSY7315\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T13:55:34.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "INSY7315\\Views\\_ViewImports.cshtml",
@@ -166,12 +183,11 @@
               "RelativeToolTip": "INSY7315\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-16T15:07:44.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T15:07:44.48Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Chat\\Index.cshtml",
               "RelativeDocumentMoniker": "INSY7315\\Views\\Chat\\Index.cshtml",
@@ -179,12 +195,11 @@
               "RelativeToolTip": "INSY7315\\Views\\Chat\\Index.cshtml",
               "ViewState": "AgIAABAAAAAAAAAAAAAmwCYAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-16T13:40:10.458Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T13:40:10.458Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "RequestsController.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Controllers\\RequestsController.cs",
               "RelativeDocumentMoniker": "INSY7315\\Controllers\\RequestsController.cs",
@@ -192,12 +207,11 @@
               "RelativeToolTip": "INSY7315\\Controllers\\RequestsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T19:28:01.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T19:28:01.571Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MessagesController.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Controllers\\MessagesController.cs",
               "RelativeDocumentMoniker": "INSY7315\\Controllers\\MessagesController.cs",
@@ -205,12 +219,11 @@
               "RelativeToolTip": "INSY7315\\Controllers\\MessagesController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAUwCgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T19:28:36.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T19:28:36.078Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ResourcesController.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Controllers\\ResourcesController.cs",
               "RelativeDocumentMoniker": "INSY7315\\Controllers\\ResourcesController.cs",
@@ -218,12 +231,11 @@
               "RelativeToolTip": "INSY7315\\Controllers\\ResourcesController.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAUwCkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T19:28:19.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T19:28:19.341Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Messages\\Index.cshtml",
               "RelativeDocumentMoniker": "INSY7315\\Views\\Messages\\Index.cshtml",
@@ -231,25 +243,24 @@
               "RelativeToolTip": "INSY7315\\Views\\Messages\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-16T15:01:11.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T15:01:11.897Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Resources\\Index.cshtml",
               "RelativeDocumentMoniker": "INSY7315\\Views\\Resources\\Index.cshtml",
               "ToolTip": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Resources\\Index.cshtml",
               "RelativeToolTip": "INSY7315\\Views\\Resources\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-16T15:00:32.739Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "HelpAndSupport.cshtml",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\User\\HelpAndSupport.cshtml",
               "RelativeDocumentMoniker": "INSY7315\\Views\\User\\HelpAndSupport.cshtml",
@@ -257,12 +268,11 @@
               "RelativeToolTip": "INSY7315\\Views\\User\\HelpAndSupport.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-16T13:39:38.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T13:39:38.094Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "SecuritySettings.cshtml",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\User\\SecuritySettings.cshtml",
               "RelativeDocumentMoniker": "INSY7315\\Views\\User\\SecuritySettings.cshtml",
@@ -270,12 +280,11 @@
               "RelativeToolTip": "INSY7315\\Views\\User\\SecuritySettings.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-16T13:39:15.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T13:39:15.53Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "LanguageSettings.cshtml",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\User\\LanguageSettings.cshtml",
               "RelativeDocumentMoniker": "INSY7315\\Views\\User\\LanguageSettings.cshtml",
@@ -283,12 +292,11 @@
               "RelativeToolTip": "INSY7315\\Views\\User\\LanguageSettings.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-16T13:38:56.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T13:38:56.274Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "SettingsMenu.cshtml",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\User\\SettingsMenu.cshtml",
               "RelativeDocumentMoniker": "INSY7315\\Views\\User\\SettingsMenu.cshtml",
@@ -296,12 +304,11 @@
               "RelativeToolTip": "INSY7315\\Views\\User\\SettingsMenu.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-16T13:38:15.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T13:38:15.196Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Profile.cshtml",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\User\\Profile.cshtml",
               "RelativeDocumentMoniker": "INSY7315\\Views\\User\\Profile.cshtml",
@@ -309,12 +316,11 @@
               "RelativeToolTip": "INSY7315\\Views\\User\\Profile.cshtml",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAACkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-16T13:37:58.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T13:37:58.324Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Dashboard\\Index.cshtml",
               "RelativeDocumentMoniker": "INSY7315\\Views\\Dashboard\\Index.cshtml",
@@ -322,12 +328,11 @@
               "RelativeToolTip": "INSY7315\\Views\\Dashboard\\Index.cshtml",
               "ViewState": "AgIAABYAAAAAAAAAAAAAADoAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-15T19:29:19.18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T19:29:19.18Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Requests\\Index.cshtml",
               "RelativeDocumentMoniker": "INSY7315\\Views\\Requests\\Index.cshtml",
@@ -335,12 +340,11 @@
               "RelativeToolTip": "INSY7315\\Views\\Requests\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-15T19:29:56.338Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T19:29:56.338Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Requests\\Details.cshtml",
               "RelativeDocumentMoniker": "INSY7315\\Views\\Requests\\Details.cshtml",
@@ -348,12 +352,11 @@
               "RelativeToolTip": "INSY7315\\Views\\Requests\\Details.cshtml",
               "ViewState": "AgIAACsAAAAAAAAAAAAAAE8AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-15T19:30:18.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T19:30:18.022Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "SignUp.cshtml",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Account\\SignUp.cshtml",
               "RelativeDocumentMoniker": "INSY7315\\Views\\Account\\SignUp.cshtml",
@@ -361,12 +364,11 @@
               "RelativeToolTip": "INSY7315\\Views\\Account\\SignUp.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-16T13:37:10.198Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T13:37:10.198Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "INSY7315\\Views\\Account\\Login.cshtml",
@@ -374,12 +376,11 @@
               "RelativeToolTip": "INSY7315\\Views\\Account\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-16T13:36:52.684Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T13:36:52.684Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Landing.cshtml",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Account\\Landing.cshtml",
               "RelativeDocumentMoniker": "INSY7315\\Views\\Account\\Landing.cshtml",
@@ -387,12 +388,11 @@
               "RelativeToolTip": "INSY7315\\Views\\Account\\Landing.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-16T13:36:34.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T13:36:34.432Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ChatController.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Controllers\\ChatController.cs",
               "RelativeDocumentMoniker": "INSY7315\\Controllers\\ChatController.cs",
@@ -400,12 +400,11 @@
               "RelativeToolTip": "INSY7315\\Controllers\\ChatController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T13:35:13.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T13:35:13.488Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "INSY7315\\Controllers\\UserController.cs",
@@ -413,12 +412,11 @@
               "RelativeToolTip": "INSY7315\\Controllers\\UserController.cs",
               "ViewState": "AgIAADcAAAAAAAAAAAAAAFsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T13:34:56.122Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T13:34:56.122Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "INSY7315\\Controllers\\DashboardController.cs",
@@ -426,12 +424,11 @@
               "RelativeToolTip": "INSY7315\\Controllers\\DashboardController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T19:27:41.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T19:27:41.133Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "INSY7315\\Controllers\\AccountController.cs",
@@ -439,12 +436,11 @@
               "RelativeToolTip": "INSY7315\\Controllers\\AccountController.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAAAEoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T13:34:37.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T13:34:37.16Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "SettingsVM.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Models\\SettingsVM.cs",
               "RelativeDocumentMoniker": "INSY7315\\Models\\SettingsVM.cs",
@@ -452,12 +448,11 @@
               "RelativeToolTip": "INSY7315\\Models\\SettingsVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T13:34:16.926Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T13:34:16.926Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "ChangePasswordVM.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Models\\ChangePasswordVM.cs",
               "RelativeDocumentMoniker": "INSY7315\\Models\\ChangePasswordVM.cs",
@@ -465,12 +460,11 @@
               "RelativeToolTip": "INSY7315\\Models\\ChangePasswordVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T13:33:57.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T13:33:57.41Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "ProfileVM.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Models\\ProfileVM.cs",
               "RelativeDocumentMoniker": "INSY7315\\Models\\ProfileVM.cs",
@@ -478,12 +472,11 @@
               "RelativeToolTip": "INSY7315\\Models\\ProfileVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T13:33:39.017Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T13:33:39.017Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "SignUpVM.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Models\\SignUpVM.cs",
               "RelativeDocumentMoniker": "INSY7315\\Models\\SignUpVM.cs",
@@ -491,12 +484,11 @@
               "RelativeToolTip": "INSY7315\\Models\\SignUpVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T13:33:21.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T13:33:21.313Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "LoginVM.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Models\\LoginVM.cs",
               "RelativeDocumentMoniker": "INSY7315\\Models\\LoginVM.cs",
@@ -504,12 +496,11 @@
               "RelativeToolTip": "INSY7315\\Models\\LoginVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T13:32:07.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T13:32:07.819Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "BroadcastMessageVM.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Models\\BroadcastMessageVM.cs",
               "RelativeDocumentMoniker": "INSY7315\\Models\\BroadcastMessageVM.cs",
@@ -517,12 +508,11 @@
               "RelativeToolTip": "INSY7315\\Models\\BroadcastMessageVM.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T19:26:33.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T19:26:33.309Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "ResourceUploadVM.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Models\\ResourceUploadVM.cs",
               "RelativeDocumentMoniker": "INSY7315\\Models\\ResourceUploadVM.cs",
@@ -530,12 +520,11 @@
               "RelativeToolTip": "INSY7315\\Models\\ResourceUploadVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAowBIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T19:26:13.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T19:26:13.814Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "ConsultantVM.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Models\\ConsultantVM.cs",
               "RelativeDocumentMoniker": "INSY7315\\Models\\ConsultantVM.cs",
@@ -543,12 +532,11 @@
               "RelativeToolTip": "INSY7315\\Models\\ConsultantVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T19:25:55.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T19:25:55.895Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "ResourceVM.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Models\\ResourceVM.cs",
               "RelativeDocumentMoniker": "INSY7315\\Models\\ResourceVM.cs",
@@ -556,12 +544,11 @@
               "RelativeToolTip": "INSY7315\\Models\\ResourceVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T19:25:39.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T19:25:39.254Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "RequestVM.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Models\\RequestVM.cs",
               "RelativeDocumentMoniker": "INSY7315\\Models\\RequestVM.cs",
@@ -569,12 +556,11 @@
               "RelativeToolTip": "INSY7315\\Models\\RequestVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T19:25:22.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T19:25:22.027Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "INSY7315\\wwwroot\\css\\site.css",
@@ -582,12 +568,11 @@
               "RelativeToolTip": "INSY7315\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAIQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-10-16T13:43:00.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T13:43:00.061Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "INSY7315\\Views\\Shared\\_Layout.cshtml",
@@ -595,12 +580,11 @@
               "RelativeToolTip": "INSY7315\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-16T13:42:32.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T13:42:32.315Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "DashboardSummaryVM.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\INSY7315\\INSY7315\\Models\\DashboardSummaryVM.cs",
               "RelativeDocumentMoniker": "INSY7315\\Models\\DashboardSummaryVM.cs",
@@ -608,8 +592,7 @@
               "RelativeToolTip": "INSY7315\\Models\\DashboardSummaryVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T19:24:49.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T19:24:49.848Z"
             }
           ]
         }
