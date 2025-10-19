@@ -1,0 +1,21 @@
+﻿Visual Studio Solution/User Files
+
+.vs/
+*.suo
+*.user
+*.pdb
+*.bak
+
+Binaries and Build Output (Crucial for preventing large files and secrets)
+
+[Bb]in/
+[Oo]bj/
+*.log
+*.zip
+*.nupkg
+
+SECRET KEYS (The permanent fix for the GitHub Push Protection error)
+
+This ignores any JSON file that looks like a service account key, regardless of where it is.
+
+-firebase-adminsdk-.json
