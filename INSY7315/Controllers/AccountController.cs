@@ -1,75 +1,108 @@
-﻿using AfterGrad.Models;
+﻿using INSY7315.Models;
+using INSY7315.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace AfterGrad.Controllers
+namespace INSY7315.Controllers
 {
     public class AccountController : Controller
     {
-        // Landing Page
-        public IActionResult Landing()
+        private readonly FirestoreService _dbService;
+
+        // Dependency Injection: Inject the FirestoreService
+        public AccountController(FirestoreService dbService)
         {
-            return View();
+            _dbService = dbService;
         }
 
-        // GET: /Account/Login
-        public IActionResult Login()
-        {
-            return View(new LoginVM());
-        }
+        // -----------------------------------------------------------------
+        // GET ACTIONS
+        // -----------------------------------------------------------------
+        public IActionResult Landing() => View();
+        public IActionResult Login() => View();
+        public IActionResult SignUp() => View();
 
-        // POST: /Account/Login
+        // -----------------------------------------------------------------
+        // POST: Login (Handles form submission and INSECURE authentication)
+        // -----------------------------------------------------------------
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Login(LoginVM model)
+        public async Task<IActionResult> Login(LoginVM model)
         {
             if (ModelState.IsValid)
             {
-                // **Authentication Logic Simulation:**
-                // Use actual authentication/database check here.
+                // 1. Find user by email
+                var user = await _dbService.GetUserByEmailAsync(model.Email);
 
-                if (model.Email == "admin@ag.com" && model.Password == "password")
+                if (user == null)
                 {
-                    // Successful login redirects to Dashboard
+                    ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                    return View(model);
+                }
+
+                // 2. INSECURE: Plain-text password comparison
+                if (user.Password == model.Password)
+                {
+                    // Authentication is successful!
+
+                    // TODO: Implement ASP.NET Core Identity or simple Session/Cookie Authentication
+                    TempData["Message"] = $"Welcome back, {user.Email}!";
                     return RedirectToAction("Index", "Dashboard");
                 }
 
                 ModelState.AddModelError(string.Empty, "Invalid login attempt.");
             }
+            // If we got this far, something failed, re-display form
             return View(model);
         }
 
-        // GET: /Account/SignUp
-        public IActionResult SignUp()
-        {
-            return View(new SignUpVM());
-        }
-
-        // POST: /Account/SignUp
+        // -----------------------------------------------------------------
+        // POST: Register (Handles form submission and user creation)
+        // -----------------------------------------------------------------
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult SignUp(SignUpVM model)
+        public async Task<IActionResult> SignUp(SignUpVM model)
         {
             if (ModelState.IsValid)
             {
-                // **Registration Logic Simulation:**
-                // Save new user to database here.
+                // 1. Check if user already exists
+                var existingUser = await _dbService.GetUserByEmailAsync(model.Email);
+                if (existingUser != null)
+                {
+                    ModelState.AddModelError("Email", "An account already exists with this email address.");
+                    return View(model);
+                }
 
-                TempData["Message"] = "Registration successful. Please log in.";
-                return RedirectToAction(nameof(Login));
+                // 2. Create the new UserModel
+                var newUser = new UserModel
+                {
+                    Email = model.Email,
+                    Password = model.Password, // INSECURE: Saving the plain text password
+                    StudentNumber = model.StudentNumber,
+                    Role = "student",
+                    Uid = Guid.NewGuid().ToString()
+                };
+
+                // 3. Register the user in Firestore
+                string documentId = await _dbService.RegisterUserAsync(newUser);
+
+                if (documentId != null)
+                {
+                    TempData["SuccessMessage"] = "Registration successful! Please log in.";
+                    return RedirectToAction("Login");
+                }
+
+                ModelState.AddModelError(string.Empty, "Registration failed. Please try again.");
             }
+
             return View(model);
         }
 
-        // GET: /Account/Logout
+        // -----------------------------------------------------------------
+        // GET: Logout
+        // -----------------------------------------------------------------
         public IActionResult Logout()
         {
-            // Clear authentication cookie/token here.
-            return RedirectToAction(nameof(Landing));
-        }
-
-        public IActionResult ResetPassword()
-        {
-            return View();
+            // TODO: Clear authentication cookies/sessions
+            TempData["Message"] = "You have been logged out.";
+            return RedirectToAction("Landing");
         }
     }
 }

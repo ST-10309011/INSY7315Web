@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("INSY7315")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40d5d25fb6097f1f9fba7638ab761a6ae0648934")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5267e6157632e8cef3db3d3afd311e5fa367c6c")]
 [assembly: System.Reflection.AssemblyProductAttribute("INSY7315")]
 [assembly: System.Reflection.AssemblyTitleAttribute("INSY7315")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

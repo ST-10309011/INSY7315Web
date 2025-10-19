@@ -1,19 +1,25 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace AfterGrad.Models
+namespace INSY7315.Models
 {
     public class SignUpVM
     {
-        [Required(ErrorMessage = "Student Number is required.")]
-        public string StudentNumber { get; set; } = string.Empty;
-
         [Required(ErrorMessage = "Email is required.")]
-        [EmailAddress(ErrorMessage = "Invalid Email Address.")]
-        public string Email { get; set; } = string.Empty;
+        [EmailAddress(ErrorMessage = "Invalid Email Address format.")]
+        public string Email { get; set; }
 
         [Required(ErrorMessage = "Password is required.")]
         [DataType(DataType.Password)]
-        [MinLength(6, ErrorMessage = "Password must be at least 6 characters.")]
-        public string Password { get; set; } = string.Empty;
+        [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 6)]
+        public string Password { get; set; }
+
+        [Required(ErrorMessage = "Student Number is required.")]
+        [RegularExpression(@"^\d+$", ErrorMessage = "Student Number must be numeric.")]
+        public string StudentNumber { get; set; }
+
+        [DataType(DataType.Password)]
+        [Display(Name = "Confirm Password")]
+        [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
+        public string ConfirmPassword { get; set; }
     }
 }
